@@ -1,19 +1,24 @@
 # minishell
-42 [minishell](https://cdn.intra.42.fr/pdf/pdf/26270/en.subject.pdf) project by yongjule &amp; ghan
+42 Minishell project by yongjule &amp; ghan
+
+
+| Date | Log|
+|:---:|:---:| 
+|2021-09-08|Start minishell|
+|2021-10-12|There was leaks|
+|2021-10-16|Bash is Wrong|
+|2021-10-20|![score](https://badge42.herokuapp.com/api/project/yongjule/minishell)|
+
 
 ---
-
 ## To-do List
 
 - [x] 팀 이름 정하기
-	Fail!!
-- [x] git organization 만들기
-
-  - [link](https://github.com/brilliantshell/minishell)
+- [x] [git organization](https://github.com/brilliantshell/minishell) 만들기
 
 - [x] 함수 공부
 
-- [ ] 깃 컨벤션 - 커밋 메시지 통일
+- [x] 깃 컨벤션 - 커밋 메시지 통일
 
   [PREFIX] [SUFFIX] : [description]
 
@@ -36,19 +41,17 @@
 	  - redir
       - builtin
 
-- [ ] 섹션 구분, 분업
+- [x] 섹션 구분, 분업
 
   - [ghan](https://github.com/42ghan)
     - signal handling
-    - basic terminal structure
+    - build terminal structure
 	- builtin command
+	- data preprocessing
   - [yongjule](github.com/yongjulejule)
-    - execute command
+	- pipe system
 	- redirections
-
----
-
-[FlowChart](https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=MiniShell#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D15pffYmkiKE5KO0HpZuSJLfFW-IhJ4zwm%26export%3Ddownload)
+    - execute command
 
 ---
 
